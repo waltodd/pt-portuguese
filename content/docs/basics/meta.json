@@ -1,0 +1,5 @@
+{
+    "title":"Noções básicas",
+    "pages": ["introduction-to-smart-contracts" ,"solidity-by-exemple"],
+    "defaultOpen": true
+}

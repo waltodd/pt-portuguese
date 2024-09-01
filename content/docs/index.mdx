@@ -1,0 +1,112 @@
+---
+title: Solidity
+---
+
+Solidity é uma linguagem de alto nível orientada a objetos para
+implementar contratos inteligentes.
+Contratos inteligentes são programas que governam o comportamento de 
+contas dentro do estado Ethereum.
+
+Solidity é uma [curly-bracket language](https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages) projetada para atingir a
+Máquina Virtual Ethereum (EVM). Ela é influenciada por C++, Python e JavaScript. 
+Você pode encontrar mais detalhes sobre quais
+ linguagens a Solidity foi inspirada na seção de [language influences](https://docs.soliditylang.org/en/v0.8.26/language-influences.html).
+
+Solidity é estaticamente tipado, suporta herança, bibliotecas e tipos complexos definidos pelo usuário, entre outros recursos.
+
+Com Solidity, você pode criar contratos para usos como votação, crowdfunding, leilões cegos e carteiras multiplas assinatura.
+
+Ao implantar contratos, você deve usar a versão mais recente lançada do Solidity. 
+Além de casos excepcionais, apenas a versão mais recente recebe [security fixes](https://github.com/ethereum/solidity/security/policy#supported-versions). Além disso, mudanças drásticas, bem como novos recursos, são introduzidos regularmente. 
+Atualmente, usamos um número de versão 0.y.z para [indicar esse ritmo rápido de mudança.](https://github.com/ethereum/solidity/security/policy#supported-versions).
+
+
+<Callout type="warn" title="Aviso">
+A Solidity lançou recentemente a versão 0.8.x que introduziu muitas mudanças drásticas. 
+Certifique-se de ler a [lista completa ](https://docs.soliditylang.org/en/v0.8.26/080-breaking-changes.html).
+</Callout>
+
+Ideias para melhorar o Solidity ou esta documentação são sempre bem-vindas. 
+Leia nosso [guia do colaborador](https://docs.soliditylang.org/en/v0.8.26/contributing.html). para mais detalhes.
+
+<Callout type="info" title="Dica">
+
+Você pode baixar esta documentação em PDF ou Epub abaixo
+ selecionando o formato de download preferido. 
+</Callout>
+
+<Cards>
+  <Card
+    href="https://docs.soliditylang.org/_/downloads/en/v0.8.26/pdf/"
+    title="PDF"
+    description="Download"
+  />
+   <Card
+    href="https://docs.soliditylang.org/_/downloads/en/v0.8.26/epub/"
+    title="Epub"
+    description="Download"
+  />
+</Cards>
+
+## Getting Started
+
+### Entenda os princípios básicos do contrato inteligente
+
+Se você é novo no conceito de contratos inteligentes, recomendamos que comece lendo a 
+seção “Introdução aos Contratos Inteligentes”, que aborda o seguinte:
+
+- [Um exemplo simples de contrato inteligente](https://docs.soliditylang.org/en/v0.8.26/contributing.html) escrito em Solidity.
+- [Fundamentos do Blockchain.](/docs/compiler/)
+- [A Máquina Virtual Ethereum.](/docs/compiler/)
+
+
+### Conheça a Solidity
+
+Depois que você estiver acostumado com o básico, recomendamos que você leia as seções 
+[Aprenda Solidity com exemplos](/docs/basics/) e “Descrição da Linguagem” para entender os conceitos básicos da linguagem.
+
+### Instalar o compilador Solidity
+
+Existem várias maneiras de instalar o compilador Solidity. Basta escolher sua opção preferida e seguir os passos descritos na
+[página de instalação](/docs/basics/) .
+
+<Callout type="info" title="Dicas">
+Você pode testar exemplos de código diretamente no seu navegador com o [Remix IDE](https://remix.ethereum.org/). O Remix é um IDE baseado em navegador da web que permite que você escreva, 
+implante e administre contratos inteligentes Solidity, sem a necessidade de instalar o Solidity localmente.
+
+</Callout>
+<Callout type="warn" title="Aviso">
+
+Conforme humanos escrevem software, ele pode ter bugs. Portanto, 
+você deve seguir as melhores práticas estabelecidas de desenvolvimento de software ao escrever seus contratos inteligentes. 
+Isso inclui revisão de código, testes, auditorias e provas de correção. Usuários de contratos inteligentes às vezes são mais confiantes com o código do que seus autores, e blockchains e contratos inteligentes têm seus próprios problemas exclusivos a serem observados, 
+então, antes de trabalhar no código de produção, certifique-se de ler a seção [Considerações de Segurança](https://docs.soliditylang.org/en/v0.8.26/security-considerations.html#security-considerations).
+
+</Callout>
+
+### Saber mais
+
+Existem várias maneiras de instalar o compilador Solidity. Basta escolher sua opção preferida e seguir os passos descritos na
+[página de instalação](/docs/basics/) .
+
+Se você quiser aprender mais sobre como construir aplicativos descentralizados no Ethereum, o 
+ [Ethereum Developer Resources](https://ethereum.org/en/developers/) pode ajudar você com mais documentação geral sobre o 
+Ethereum e uma ampla seleção de tutoriais, ferramentas e frameworks de desenvolvimento.
+
+Se você tiver alguma dúvida, pode tentar procurar respostas ou perguntar no [Ethereum StackExchange](https://ethereum.stackexchange.com/) ou em nosso [canal do Gitter](https://gitter.im/ethereum/solidity).
+
+
+
+<Cards className="py-2">
+  <Card href="/docs/basics/introduction-to-smart-contracts" title="Noções básicas" description="Introdução aos Contratos Inteligentes" />
+   <Card href="/docs/language-description/layout-of-a-solidity-source-file" title="Descrição doa linguagem" description="Layout de um arquivo de origem do Solidity" />
+</Cards>
+<Cards className="py-2">
+ 
+  <Card
+    href="/docs/compiler/using-the-compiler"
+    title="Compilador"
+    description="Usando o compilador de linha de comando"
+  />
+  <Card href="/" title="Internos" description="Layout de variáveis ​​de estado no armazenamento" />
+</Cards>

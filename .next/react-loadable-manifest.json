@@ -1,0 +1,8 @@
+{
+  "node_modules/.pnpm/fumadocs-ui@13.4.1_@types+react-dom@18.3.0_@types+react@18.3.5_next@14.2.7_react-dom@18.3.1_r_6igiwcnyf3jz4ojgx43xo7cm3i/node_modules/fumadocs-ui/dist/provider.js -> ./components/dialog/search-default.js": {
+    "id": "node_modules/.pnpm/fumadocs-ui@13.4.1_@types+react-dom@18.3.0_@types+react@18.3.5_next@14.2.7_react-dom@18.3.1_r_6igiwcnyf3jz4ojgx43xo7cm3i/node_modules/fumadocs-ui/dist/provider.js -> ./components/dialog/search-default.js",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_fumadocs-ui_13_4_1__types_react-dom_18_3_0__types_react_-24cdb9.js"
+    ]
+  }
+}

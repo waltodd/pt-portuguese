@@ -1,0 +1,28 @@
+---
+title: Introdução aos Contratos Inteligentes
+---
+
+## Um contrato inteligente simples
+
+Vamos começar com um exemplo básico que define o valor de uma variável e a expõe para outros contratos acessarem. 
+Tudo bem se você não entendeu tudo agora, entraremos em mais detalhes depois.
+
+
+### Exemplo de armazenamentos
+
+```solidity 
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.4.16 <0.9.0;
+
+contract SimpleStorage {
+    uint storedData;
+
+    function set(uint x) public {
+        storedData = x;
+    }
+
+    function get() public view returns (uint) {
+        return storedData;
+    }
+}
+```
